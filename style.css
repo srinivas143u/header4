@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+}
+h2{
+    position: relative;
+    left: 30px;
+    top: 17px;
+    color: white;
+}
+.bike li{
+    display: inline-flex;
+    position: relative;
+    left: 900px;
+    bottom: 16px;
+    margin-left: 30px;
+}
+.bike li a{
+    color: bisque;
+}
+.motor{
+    background-color: blue;
+    padding: 11px 15px;
+    border-radius: 15px;
+}
